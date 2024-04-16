@@ -5,19 +5,21 @@ export const Wrapper = styled.div`
 	justify-content: flex-end;
 `;
 
-export const Button = styled.buttton`
+export const Button = styled.button`
 	cursor: pointer;
 	background: none;
+	border: none;
 	color: inherit;
-	outline-offset: 8px;
 	display: flex;
 	align-items: center;
+	outline-offset: 8px;
 `;
 
 export const Text = styled.span`
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding-right: 12px;
 `;
 
 export const Box = styled.span`
